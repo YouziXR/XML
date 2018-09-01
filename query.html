@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<!-- <meta charset="utf-8"> -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<head>
+	<title>学籍信息</title>
+	<!-- <link rel="stylesheet" type="text/css" href="button.css"> -->
+	<link rel="stylesheet" type="text/css" href="style/green.css">
+	<link rel="stylesheet" type="text/css" href="style/table.css">
+	<script type="text/javascript" src="js/request.js"></script>
+	<style type="text/css">
+		img
+		{
+			/*display: inline-block;*/
+			float: right;
+			/*top: -100px;*/
+			margin-bottom: 3%;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="smart-green" id="main">
+		<h1>学籍信息</h1>
+		<div id="right">
+			<span>学号：</span><br>
+			<input type="text" name="text" id="input" placeholder="请输入学号"><br>
+			<button type="button" onclick="create_xml()" class="button">Send</button>
+		</div>
+		<div id="tableList">
+		</div>
+	</div>
+</body>
+
+</html>
